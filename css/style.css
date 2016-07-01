@@ -6,6 +6,7 @@
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+	min-height: 100vh;
 }
 		
 /* HEADER */
@@ -43,6 +44,7 @@
 }
 
 .menu li a:hover {
+	transition-delay: .2s;
 	background: #4a4a4a; 
     background: -moz-linear-gradient(top,  #4a4a4a 0%, #444444 28%, #343434 74%, #2e2e2e 100%);
     background: -webkit-linear-gradient(top,  #4a4a4a 0%,#444444 28%,#343434 74%,#2e2e2e 100%);
@@ -84,10 +86,12 @@
 	padding-left: 36px;
 	color: #2c2c2c;
 	background-color: #f9f9f9;
+	transition-delay: .2s;
 }
 
 .sidebar li:last-child a:hover {
 	border-bottom: 1px solid #c8c8c8;
+	transition-delay: .2s;
 }
 
 /* CONTENT */
